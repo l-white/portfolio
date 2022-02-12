@@ -3,9 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
   <title>Portfolio</title>
 </head>
 <body>
-  <h1>Laura White, Web Developer</h1>
+  <div class="container">
+    <header>
+      <nav></nav>
+      <h1>Laura White, Web Developer</h1>
+      <h2><img alt="Laura White" class="float-right" src="/images/laura.jpg" />About Me</h2>
+      <p id="about">Hi! I'm Laura, a web developer with six years of experience creating and optimizing front-end content for businesses and educational institutions.</p>
+      <p>Currently, I work as the District Webmaster for Milwaukee Public schools. Some of my responsibilities include: 
+      <ul>
+        <li>Managing and responding to all front-end technical requests from users spanning 150 schools and Central Services</li>
+        <li>Extending capabilities of custom content management system (CMS) with HTML, CSS, and JavaScript for hundreds of webpages</li>
+        <li>Troubleshooting technical SEO issues</li>
+        <li>Training staff on how to create their own web content</li>
+      </ul>
+      <p>To learn more about my work history, check out my <a href="https://www.linkedin.com/in/laura-white-32087193/" target="_blank">LinkedIn profile</a>!</p>
+  </header>
+  <div>
+    <h2>Projects</h2>
+    <p>To take a look at some of my projects, click on an item below to expand.</p>
+    <h3>Meme Generator <button>=></button></h3>
+    <div class="hidden"><p>Okay, I admit it: I love memes! Some of my favorite projects for the web involve generating memes or using the GIPHY API to get memes to appear on a webpage.</p>
+    <p>This simple web app allows you to generate your own memes through a simple form.</p>
+    <p>Check out my Github repo to see the code for this project.</p>
+    </div>
+    <h3>Connect Four Game =></h3>
+    <div class="hidden"><p>Item description</p></div>
+    <h3>Lavender Hill Properties Website =></h3>
+    <div class="hidden"><p><img alt="murray avenue duplex" class="float-left portfolio-img" src="/images/murray_ave.jpeg">The <a href="http://l-white.github.io/Lavender-Hill-Properties/" target="_blank"></a>Lavender Hill Properties</a> website was designed for now husband in 2015 when I first learned how to put HTML and CSS together. Currently, I am redesigning the website using React, CSS in JS components and adding a node.js backend so that emails can be sent directly for inquiries.</p>
+      <p><a href="http://l-white.github.io/Lavender-Hill-Properties/" target="_blank">Check out a working version of this website!</a></p>
+    </div>
+  </div>
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </body>
 </html>

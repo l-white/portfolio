@@ -1,0 +1,63 @@
+body {
+  background-color: lightblue;
+  font-family: 'Raleway', sans-serif;
+  color: #002e5b;
+}
+
+.container {
+  max-width: 900px;
+  min-width: 320px;
+  border-radius: 10px;
+  background-color: #F8F0E3;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.hidden {
+  max-width: 650px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: olivedrab;
+  font-weight: bold;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+}
+
+.float-left {
+  float: left;
+  margin-right: 15px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 15px;
+}
+
+.portfolio-img {
+  max-width: 200px;
+  height: auto;
+}
+
+#about {
+  max-width: 800px;
+}
+
+button {
+  background-color: #002e5b;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+
+button:hover {
+  background-color: orangered;
+}
