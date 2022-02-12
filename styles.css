@@ -31,6 +31,10 @@ a:hover {
   font-weight: bold;
 }
 
+img {
+  border: 1px solid #002e5b;
+}
+
 .float-left {
   float: left;
   margin-right: 15px;
@@ -50,14 +54,33 @@ a:hover {
   max-width: 800px;
 }
 
+.col-1 {
+  float: left;
+  max-width: 400px;
+}
+
+.col-2 {
+  float: right;
+  max-width: 400px;
+}
+
+.portfolio p {
+  text-align: justify;
+}
+
 button {
   background-color: #002e5b;
   color: white;
   border: none;
   padding: 5px 10px;
-  border-radius: 50%;
+  margin-right: 10px;
 }
 
 button:hover {
   background-color: orangered;
+}
+
+#cat-meme {
+  max-width: 150px;
+  height: auto;
 }
