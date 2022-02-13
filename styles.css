@@ -111,6 +111,10 @@ img {
   text-align: justify;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 button {
   background-color: #002e5b;
   color: white;
@@ -121,11 +125,6 @@ button {
 
 button:hover {
   background-color: orangered;
-}
-
-#cat-meme {
-  max-width: 150px;
-  height: auto;
 }
 
 footer {
