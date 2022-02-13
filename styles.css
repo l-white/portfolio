@@ -1,5 +1,5 @@
 body {
-  background-color: lightblue;
+  background-color: olivedrab;
   font-family: 'Raleway', sans-serif;
   color: #002e5b;
 }
@@ -7,10 +7,47 @@ body {
 .container {
   max-width: 900px;
   min-width: 320px;
-  border-radius: 10px;
   background-color: #F8F0E3;
   margin: 0 auto;
   padding: 15px;
+}
+
+.header {
+  background-color: #002e5b;
+  padding: 0 1em;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.nav ul {
+  list-style-type: none;
+}
+
+.header h1 {
+  color:  #F8F0E3;
+  font-size: 22px;
+}
+
+.nav li {
+  font-family: 'Roboto', sans-serif;
+  color:  #F8F0E3;
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.nav li a {
+  color: #F8F0E3;
+}
+
+.nav li a:hover {
+  color: orangered;
+  font-weight: bold;
 }
 
 .hidden {
