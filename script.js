@@ -13,9 +13,6 @@ for (let i = 0; i < button.length; i++){
   } else {
     hiddenContent[i].style.display = "none";
   }
-  console.log(event.target)
-  console.log(event.target.nextSibling)
-  console.log(event.target.nextElementSibling)
 })
 }
 
